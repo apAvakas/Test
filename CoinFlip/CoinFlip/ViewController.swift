@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         
         let title = sender.title(for: .normal)
         //decision.text = "You clicked \(title ?? "")"
+        print("Hello World")
         
         if computerChoice.text == title {
             decision.text = "Tie"
